@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainContent{
+    background-color: rgb(92, 92, 92);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.divMiddle{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 50%;
+    padding:  0 20px;
+    min-width: fit-content;
+    height: 100%;
+    background-color: rgb(75, 75, 75);
+}
+.divContent{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+}
+
+.grid{
+    position:relative;
+    float:left;
+    background-color: rgb(255, 255, 255);
+    width: 23px;
+    height: 23px;
+    border-style: solid;
+    border-color:rgb(92, 92, 92);
+    border-width: 1px;
+}
+
+.snake{
+    background-color: blue;
+}
+
+.food{
+    background-color: yellow;
+}
+
+p{
+    top: 20vh;
+    font-size: 2rem;
+    position:relative;
+    font-family: monospace;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
